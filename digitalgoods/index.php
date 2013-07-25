@@ -13,7 +13,7 @@ Plugin update URI: digital-goods
     require_once 'DGModel.php';
 
     function digitalgoods_install() {
-        DGModel::newInstance()->import('cars_attributes/struct.sql');
+        DGModel::newInstance()->import('digitalgoods/struct.sql');
         @mkdir(osc_content_path().'uploads/digitalgoods/');
         osc_set_preference('upload_path', osc_content_path().'uploads/digitalgoods/', 'digitalgoods', 'STRING');
         osc_set_preference('max_files', '1', 'digitalgoods', 'INTEGER');
@@ -76,7 +76,7 @@ Plugin update URI: digital-goods
 
     function digitalgoods_upload_files($item){
         if($item['fk_i_category_id']!=null) {
-            if(osc_is_this_category('digitalgoods', $catId)) {
+            if(osc_is_this_category('digitalgoods', $item['fk_i_category_id'])) {
                 $files = Params::getFiles('dg_files');
                 if(count($files)>0) {
                     require LIB_PATH . 'osclass/mimes.php';

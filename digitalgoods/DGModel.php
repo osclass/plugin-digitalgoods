@@ -20,7 +20,7 @@
         
         public function getTable_DG()
         {
-            return DB_TABLE_PREFIX.'t_item_dg';
+            return DB_TABLE_PREFIX.'t_item_dg_files';
         }
         
         public function import($file)
