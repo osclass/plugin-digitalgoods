@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital goods\n"
+"POT-Creation-Date: 2015-01-23 09:54+0100\n"
+"PO-Revision-Date: 2015-01-23 09:54+0100\n"
+"Last-Translator: Martin Schlierf<martin@koma666.de>\n"
+"Language-Team: Schlierf <martin@koma666.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: german\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods\n"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/ajax.php:20
+msgid "The selected file couldn't be deleted, the url doesn't exist"
+msgstr "Die angegebene Datei konnte nicht gelöscht werden, die URL existiert nicht"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/ajax.php:30
+msgid "The item doesn't exist"
+msgstr "Der Eintrag existiert nicht"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/ajax.php:38
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/ajax.php:46
+msgid "The item doesn't belong to you"
+msgstr "Dieser Eintrag gehört ihnen nicht"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/ajax.php:59
+msgid "The selected file has been successfully deleted"
+msgstr "Die markierte Datei wurde erfolgreich gelöscht"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/ajax.php:62
+msgid "The selected file couldn't be deleted"
+msgstr "Die gewählte Datei konnte nicht gelöscht werden"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/conf.php:25
+msgid "Congratulations. The plugin is now configured"
+msgstr "Gratulation. Das Plugin ist nun konfiguriert"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/conf.php:33
+msgid "Digital Goods Settings"
+msgstr "Digital Goods Einstellungen"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/conf.php:40
+msgid "Number of max files per ad (0 for unlimited)"
+msgstr "Maximale anzahl an Einträgen pro Anzaige (0 für unlimitiert)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/conf.php:44
+msgid "Allowed filetypes (separated by comma)"
+msgstr "Erlaubre Dateitypen (mit komma getrennt z.B. pdf,txt,doc)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/conf.php:48
+msgid "Update"
+msgstr "Update"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/index.php:57
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/index.php:58
+msgid "Configure categories"
+msgstr "Kategorie einstellen"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/index.php:59
+msgid "Stats"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/index.php:152
+msgid "Some of the files were not uploaded because they have incorrect extension"
+msgstr "Einige Dateien konnten nicht hochgeladen werden, weil sie nicht erlaubte Dateiwerweiterungen haben"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/item_detail.php:1
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/item_edit.php:1
+msgid "Digital Goods"
+msgstr "Zusätzliche Dateien"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/item_detail.php:8
+msgid "Download"
+msgstr "Download"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/item_edit.php:5
+#, php-format
+msgid "Allowed extensions are %s. Any other file will not be uploaded"
+msgstr "Erlaubte Dateierweiterungen sind %s. Andere Dateitypen werden nicht hochgeladen"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/item_edit.php:11
+msgid "Delete"
+msgstr "Löschen"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/item_edit.php:23
+msgid "Add new digital file"
+msgstr "Neue Datei hinzufügen"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/item_edit.php:51
+msgid "Remove"
+msgstr "Entfernen"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/item_edit.php:64
+msgid "Sorry, you have reached the maximum number of files per ad"
+msgstr "Sie haben die maximale Anzahl an zusätzlichen Dateien erreicht"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/item_edit.php:85
+msgid "This action can\\'t be undone. Are you sure you want to continue?"
+msgstr "Diese Aktion kann nicht rückgängig gemacht werden. Sind sie sicher?"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/stats.php:31
+msgid "Ad"
+msgstr "Anzeige"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/stats.php:32
+msgid "File"
+msgstr "Datei"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/digitalgoods/stats.php:33
+msgid "Total downloads"
+msgstr "Anzahl der Downloads"
+
